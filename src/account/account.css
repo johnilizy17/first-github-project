@@ -1,0 +1,40 @@
+.account {
+  background-color: black;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.account__container {
+  background-color: whitesmoke;
+  height: 25.7vh;
+  color: black;
+  width: 40vw;
+}
+.account__container > form > input {
+  width: 95.7%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  color: black;
+}
+@media (max-width: 500px) {
+  .account__container > form > input {
+    width: 94%;
+    padding: 5px;
+    margin-bottom: 10px;
+    height: 90%;
+  }
+}
+.account__button {
+  padding: 8px;
+  width: 100%;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+@media (max-width: 500px) {
+  .account__button {
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+}
